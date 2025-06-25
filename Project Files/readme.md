@@ -2,7 +2,7 @@
 
 
 
--->i am providing 4 zip files --->these 4 folders equal to one main zip folder
+-->i am providing 4 zip files --->these 4 folders are equal to one main zip folder
 
 
 
