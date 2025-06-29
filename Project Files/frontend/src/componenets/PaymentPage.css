@@ -1,0 +1,182 @@
+.payment-wrapper {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f0f8ff, #e0ffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.payment-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.payment-card h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #222;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 10px;
+}
+
+.radio-group label {
+  flex: 1;
+  background-color: #f4f4f4;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.radio-group input[type='radio'] {
+  margin-right: 6px;
+}
+
+.radio-group input[type='radio']:checked + label,
+.radio-group label:hover {
+  border-color: #007bff;
+  background-color: #e8f1ff;
+}
+
+.qr-section,
+.cod-info {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.qr-image {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+.success-message h2 {
+  color: green;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.success-message p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.confirmation-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.confirmation-card h2 {
+  color: #28a745;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.confirmation-card p {
+  font-size: 15px;
+  color: #333;
+  margin: 6px 0;
+}
+.confirmation-message {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.confirmation-message h2 {
+  font-size: 22px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.confirmation-message p {
+  font-size: 15px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.confirmation-message .submit-btn {
+  margin-top: 20px;
+}
+.animated-checkmark {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+}
+
+.animated-checkmark svg {
+  width: 100%;
+  height: 100%;
+  stroke: #5cb85c; /* light green */
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+.checkmark-circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  animation: dashCircle 0.6s ease-in-out forwards;
+}
+
+.checkmark-check {
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: dashCheck 0.3s 0.6s ease-in-out forwards;
+}
+
+@keyframes dashCircle {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dashCheck {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

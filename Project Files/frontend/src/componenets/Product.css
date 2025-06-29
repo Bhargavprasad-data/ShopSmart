@@ -1,0 +1,52 @@
+.product-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.product-scroll-area {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+/* Style the individual product cards */
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Image and inputs */
+.product-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-quantity-input {
+  width: 60px;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #fff;
+  color: #000;
+}
+
+.add-to-cart-button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

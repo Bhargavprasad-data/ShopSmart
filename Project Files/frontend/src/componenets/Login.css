@@ -1,0 +1,133 @@
+.login-container {
+  .login-container,
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;                /* Remove vertical margin */
+  padding: 80px 30px;            /* Add top and bottom padding */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+}
+
+.login-container h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-container button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+}
+
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+.input-wrapper button.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.page-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}

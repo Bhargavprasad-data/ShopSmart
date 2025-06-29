@@ -1,0 +1,37 @@
+.home-container {
+  text-align: center;
+  padding: 40px 20px 0; /* Top and side padding only */
+  margin: 0;
+  min-height: calc(100vh - 80px); /* Fill screen minus navbar height */
+  box-sizing: border-box;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.home-image-container {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.page-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.page{
+  font-size: 27px;
+}
