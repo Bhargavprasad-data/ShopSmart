@@ -23,10 +23,17 @@ function Login() {
             alert("Login successful!");
             navigate("/");
         } catch (err) {
-            if (err.response && err.response.status === 401) {
-                setError("Invalid email or password.");
+            console.error("Login error:", err.response || err.message); // 🔍 Log full error for debugging
+
+            if (err.response) {
+                if (err.response.status === 401) {
+                    setError("Invalid email or password.");
+                } else {
+                    // Show actual backend message if available
+                    setError(err.response.data.message || "Something went wrong. Please try again.");
+                }
             } else {
-                setError("Something went wrong. Please try again.");
+                setError("Server not responding. Please try again later.");
             }
         }
     };
