@@ -1,1 +1,1 @@
-
+QR code for payment
