@@ -1,0 +1,25 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure body has no scroll space */
+body, html {
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Page title styling */
+.page-title {
+  font-size: 2rem;          /* larger text */
+  color: #28a745;           /* green accent */
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* Page title styling */
